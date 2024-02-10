@@ -1,6 +1,8 @@
-public static String toString(int[] numbers){
+public static String toString(int[] numbers)
+{
     String str = "";
-    for (int i : numbers) {
+    for (int i : numbers)
+    {
         str += " " +i;
     }
     return str;
