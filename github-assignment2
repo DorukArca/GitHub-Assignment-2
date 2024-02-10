@@ -6,7 +6,7 @@
 public int findMinimum(int[] numberList) {
   int smallestNumber = numberlist[0];
 
-  for(int i = 1; i < numberList.length(); i++) {
+  for(int i = 1; i < numberList.length; i++) {
     if(numberList[i] <= smallestNumber) {
       smallestNumber = numberList[i];
     }
@@ -22,7 +22,7 @@ public int findMinimum(int[] numberList) {
 public int findMaximum(int[] numberList) {
   int biggestNumber = numberlist[0];
 
-  for(int i = 1; i < numberList.length(); i++) {
+  for(int i = 1; i < numberList.length; i++) {
     if(numberList[i] >= biggestNumber) {
       biggestNumber = numberList[i];
     }
