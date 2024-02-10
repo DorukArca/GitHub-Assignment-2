@@ -1,5 +1,5 @@
 
-public static int average( int[] list){
+public static void average( int[] list){
   int sumOfNumbers = 0;
   int average = 0;
   int[] difference;
